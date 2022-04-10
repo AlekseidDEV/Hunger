@@ -68,6 +68,37 @@ z-index: 1;
     z-index: 1;
 }
 
+.humburger--menu{
+    background: url(../img/menu.svg) no-repeat center ;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    background-size: contain;
+    margin-right: 60px;
+    padding-top: 150px;
+    display: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    outline: none;
+    border: none;
+    appearance: none;
+    display: none;
+}
+
+
+
+.strip__burger{
+    background:#000000;
+    color: #E5E5E5;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
 
 /*====================================================================================================
                                                         HEADER end
@@ -331,6 +362,7 @@ line-height: 24px;
 ====================================================================================================*/
 .container__block{
     display: flex;
+    justify-content: center;
 }
 .section__our-team{
     background: url('../img/master.webp') no-repeat center/cover;
@@ -1081,6 +1113,16 @@ flex-wrap: wrap;
    .ring{
        margin-bottom: 20px;
    }
+
+   .our-team__text{
+       margin-left: 100px;
+   }
+
+   .specialties__text{
+    margin-left: 100px;
+   }
+
+
   
 }
 
@@ -1089,7 +1131,536 @@ flex-wrap: wrap;
         font-size: 76px;
     }
 
-    .promo-text{
+    .block-text{
+        display: none;
+    }
+
+    .social-buttons{
+        display: none;
+    }
+
+
+    .promo-main{
+        margin-left: 150px;
+    }
+
+    
+
+    
+
+    .delicious-links{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 910px){
+     .promo-main{
+        margin-left: 120px;
+    }
+
+    .block__about{
+        margin-left: 150px;
+    }
+
+    .mob__our{
+        margin-left: 150px;
+    }
+
+    .our__text{
+        margin-left: 150px;
+    }
+
+    .our-team__text{
+        margin-left: 30px;
+    }
+
+    .form__mobile{
+        margin-left: 150px;
+    }
+
+    .time__mob{
+        margin-left: 150px;
+    }
+
+    .specialties__text{
+        margin-left: 30px;
+    }
+
+    .ice__mob{
+        margin-left: 150px;
+    }
+
+    .mob__spec{
+        margin-left: 150px;
+    }
+
+    .private__text{
+        margin-left: 60px;
+    }
+    .comm-info{
+        margin-left: 8px;
+    }
+
+    .comm__contact{
+        flex-wrap: wrap;
+    }
+
+    .messenger{
+        max-width: 760px;
+        width: 100%;
+    }
+
+    .form {
+        max-width: 250px;
+        width: 100%;
+    }
+
+    .button-comm{
+        margin-left: 0;
+        max-width: 245px;
+    }
+}
+
+@media(max-width: 910px){
+    .delic-link{
+        margin-top: 10px;
+    }
+
+    .delic-linknb{
+        margin-top: 10px; 
+    }
+
+    .promo-main{
+        margin-left: 70px;
+    }
+
+    .block__about{
+        margin-left: 100px;
+    }
+
+    .mob__our{
+        margin-left: 100px;
+    }
+
+    .our__text{
+        margin-left: 100px;
+    }
+
+    .our-team__text{
+        margin-left: 0;
+    }
+
+    .form__mobile{
+        margin-left: 100px;
+    }
+
+    .time__mob{
+        margin-left: 100px;
+    }
+
+    .specialties__text{
+        margin-left: 0;
+    }
+
+    .ice__mob{
+        margin-left: 100px;
+    }
+
+    .mob__spec{
+        margin-left: 100px;
+    }
+
+    .private__text{
+        margin-left: 0;
+    }
+
+    .private__info{
+        margin-left: 100px;
+    }
+}
+
+@media(max-width: 760px){
+   
+
+    .promo-main{
+        margin-left: 50px;
+    }
+
+    .block__about{
+        margin-left: 60px;
+    }
+
+    .mob__our{
+        margin-left: 60px;
+    }
+
+    .our__text{
+        margin-left: 60px;
+    }
+
+    .our-team__text{
+        margin-left: 0;
+    }
+
+    .form__mobile{
+        margin-left: 60px;
+    }
+
+    .time__mob{
+        margin-left: 60px;
+    }
+
+    .specialties__text{
+        margin-left: 0;
+    }
+
+    .ice__mob{
+        margin-left: 60px;
+    }
+
+    .mob__spec{
+        margin-left: 60px;
+    }
+
+    .private__text{
+        margin-left: 0;
+    }
+
+    .private__info{
+        margin-left: 60px;
+    }
+
+    .column__one{
+        margin-right: 20px;
+    }
+
+    .column__two{
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 760px){
+    .messenger{
+        max-width: 520px;
+    }
+
+    .form{
+        max-width: 170px;
+    }
+
+    .button-comm{
+        margin-top: 10px;
+    }
+}
+
+@media(max-width: 706px){
+    .promo-main{
+        margin-left: 20px;
+    }
+
+    .block__about{
+        margin-left: 20px;
+    }
+
+    .mob__our{
+        margin-left: 20px;
+    }
+
+    .our__text{
+        margin-left: 20px;
+    }
+
+    .our-team__text{
+        margin-left: 0;
+    }
+
+    .form__mobile{
+        margin-left: 20px;
+    }
+
+    .time__mob{
+        margin-left: 20px;
+    }
+
+    .specialties__text{
+        margin-left: 0;
+    }
+
+    .ice__mob{
+        margin-left: 20px;
+    }
+
+    .mob__spec{
+        margin-left: 20px;
+    }
+
+    .private__text{
+        margin-left: 0;
+    }
+
+    .private__info{
+        margin-left: 20px;
+    }
+
+    .logo-img{
+        max-width: 100px;
+        height: 100%;
+    }
+
+    .humburger--menu{
+        display: block;
+    }
+
+    .select__burger{
+        max-width: 423px;
+    }
+
+   
+
+    .nav-link{
+        display: none;
+    }
+    
+}
+
+@media(max-width: 680px){
+    .promo-main{
+        margin-left: 100px;
+    }
+
+    .promo-title{
+        font-size: 50px;
+    }
+
+    .link-down{
+        margin-left: -35px;
+    }
+}
+
+@media(max-width: 640px){
+    .link-down{
+        margin-left: -15px;
+    }
+
+    .column__one{
+        margin-right: 0;
+    }
+
+    .column__two{
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 620px){
+
+    .container{
+        max-width: 450px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .promo-main{
+        max-width: 400px;
+        width: 100%;
+    }
+    
+    .promo-title {
+        font-size: 40px;
+    }
+
+    .button-secondary{
+        margin-left: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .button-primary{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .link-down{
+        margin-left: -22px;
+    }
+
+
+    
+
+    .img__us{
+        max-width: 400px;
+        width: 100%;
+    }
+    .section__text{
+        max-width: 400px;
+        width: 100%;
+        
+    }
+    .section-title{
+        font-size: 22px;
+    }
+
+    .block__text_sub-title{
+        font-size: 16px;
+    }
+
+    .deck{
+        font-size: 12px;
+    }
+
+    
+
+    
+
+    .time-working{
+        display: none;
+    }
+
+    
+
+    .delic-text{
+        font-size: 22px;
+
+    }
+
+    .del-sub__title{
+        font-size: 16px;
+    }
+
+    .info__delicious{
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .ring{
+        max-width: 400px;
+        width: 100%;
+    }
+
+    #rectangle{
+        display: none;
+    }
+
+    .flower{
+        max-width: 400px;
+        width: 100%;
+    }
+
+    #square{
+        display: none;
+    }
+
+    .button-comm{
+        width: 100px;
+        padding: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .comm__contact{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form{
+        max-width: 97px;
+    }
+
+    .messenger{
+        max-width: 300px;
+    }
+
+    
+
+    .info-contact{
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .contact-title {
+        font-size: 22px;
+    }
+
+    .con-sub__title{
+        font-size: 16px;
+    }
+
+    .section__form{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container__block{
+        display: flex;
+        justify-content: center;
         margin: 0;
+    }
+
+    .private__info{
+        margin: 0;
+    }
+
+    .block_img-flower{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 490px){
+    .time__mob{
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .form__mobile{
+        margin-left: 0;
+    }
+
+    .ice__mob{
+        margin-left: 0;
+    }
+
+    .mob__spec{
+        margin-left: 0;
+    }
+
+    .promo-main{
+        margin-left: 0;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .promo-title {
+        font-size: 30px;
+    }
+
+    .block__about{
+        margin-left: 0;
+    }
+
+    .mob__our{
+        margin-left: 0;
+    }
+
+    .our__text{
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 414px){
+   .promo-main{
+       margin-left: 50px;
+   }
+}
+
+@media(max-width: 380px){
+    .promo-main{
+        margin-left: 30px;
+    }
+}
+
+@media(max-width: 380px){
+    .promo-main{
+        margin-left: 0;
     }
 }
